@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FleetManagement</title>
+</head>
+<body>
+    <h1>Login Page</h1>
+    <input type="email" id="email" placeholder="Enter Your Email"><br><br>
+    <input type="password" id="password" placeholder="Enter Your Password"><br><br>
+    <button id = "Loginbutton">Login</button>
+
+    <script>
+        document.getElementById = ("Loginbutton").addEventListener("click", function(){
+            let email = document.getElementById("email").value;
+            let password = document.getElementById("password").value;
+
+            if(email === "admin@gmail.com" && password === admin1234){
+            alert("Login success");
+            window.location.href = "admin.html";
+            }
+            else{
+                alert("Wrong email or password");
+            }
+        });
+    </script>
+</body>
+</html>
