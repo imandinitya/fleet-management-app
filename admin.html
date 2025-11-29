@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin page</title>
+</head>
+<body>
+    <h1>FleetManagement Dashboard</h1>
+    <select id="filter">
+        <option value="Auto">Auto</option>
+        <option value="Car">Car</option>
+        <option value="Truck">Truck</option>
+        <option value="Bus">Bus</option>
+    </select>
+
+    <select id="availability">
+        <option value="available">Available</option>
+        <option value="unavailable">Unavailable</option>
+    </select>
+
+    <h1>Add Fleet</h1>
+    <input id="registratiln" type="text" placeholder="Registration NO.">
+    <select id="type-v">
+        <option value="Auto">Auto</option>
+        <option value="Car">Car</option>
+        <option value="Truck">Truck</option>
+        <option value="Bus">Bus</option>
+    </select>
+    <input id="driverdetails" type="text" placeholder="Enter Driver Name">
+    <select id="availability-d">
+        <option value="Available">Available</option>
+        <option value="Unavailable">Unavailable</option>
+    </select>`
+
+    <button id="addfleet">Add Fleet</button>
+
+    <div id="cards"></div>
+    <script src="script.js"></script>
+
+
+    
+</body>
+</html>
